@@ -1,0 +1,44 @@
+* {
+    font-family: JetBrains, Mono, Nerd, "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(57, 248, 255, 0.5);
+}
+
+hr {
+    border: 2px solid rgb(252, 143, 143);
+
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.list-container {
+    list-style-type: inside;
+}
+
+.ul-recipes, .ul-ingredients {
+    display: inline-block;
+    text-align: left;
+}
+
+.recipe {
+    font-size: 24px;
+}
+
+.steps li{
+    text-align: left;
+}
+
+.return {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ul-ingredients li {
+    text-align: center;
+    list-style: none;
+}
+
